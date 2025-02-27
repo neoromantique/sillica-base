@@ -8,10 +8,10 @@ base-image: ghcr.io/ublue-os/bluefin-dx
 image-version: latest
 
 modules:
-  - type: files
-    files:
-      - source: system
-        destination: / # copies files/system/* (* means everything inside it) into your image's root folder /
+  # - type: files
+  #   files:
+  #     - source: system
+  #       destination: / # copies files/system/* (* means everything inside it) into your image's root folder /
 
   - type: rpm-ostree
     repos:
